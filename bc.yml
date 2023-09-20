@@ -20,3 +20,6 @@ spec:
       uri: "https://github.com/selrahal/buildconfig-git-lfs.git"
   strategy:
     dockerStrategy:
+      from:
+        kind: "DockerImage"
+        name: "openshift/sti-image-builder"
